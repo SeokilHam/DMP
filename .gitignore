@@ -1,0 +1,21 @@
+# ignore scripts
+*.sh
+!example_script.sh
+
+# ignore results
+results/
+evaluation/*.csv
+evaluation/*.npz
+analysis/
+samples/
+
+# ignore cache
+*.pyc
+evaluation/*.pb
+
+pretrained_DiT/
+*.pt
+*.out
+.nfs*
+*.npz
+*.log
