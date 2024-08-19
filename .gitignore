@@ -8,6 +8,7 @@ evaluation/*.csv
 evaluation/*.npz
 analysis/
 samples/
+diffusers/
 
 # ignore cache
 *.pyc
